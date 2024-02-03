@@ -18,7 +18,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        "primary-bg": '#F0D16B',
+                        "primary-bg": '#f79865',
                     }
                 }
             }
@@ -31,11 +31,11 @@
     </style>
 </head>
 
-<body>
+<body class="font-poppins">
     <header>
         <!-- Navbar -->
         <section>
-            <div class="navbar bg-base-100 container mx-auto font-poppins">
+            <div class="navbar bg-base-100 container mx-auto ">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -72,6 +72,23 @@
                         <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
                     </ul>
                 </div>
+            </div>
+        </section>
+        <!-- banner -->
+        <section class="flex lg:flex-row flex-col md:container mx-4 lg:mx-auto mt-12 lg:justify-around justify-start items-center">
+            <div class="space-y-5 flex-1">
+                <h3 class=" inline bg-primary-bg rounded-xl lg:text-xl font-semibold px-4 py-2 ">Since2023</h3>
+                <h1 class="lg:text-9xl text-6xl font-semibold">Providing <br> Super Fast <br> & Reliable</h1>
+                <button class="btn lg:text-xl font-semibold bg-primary-bg">Check Availability</button>
+            </div>
+            <div class="flex-1">
+                <div class="relative">
+                    <img src="Images/img/profile.jpg" class="w-full h-full" alt="">
+                    <div class="">
+                        <img class="absolute top-0 lg:right-20 right-0 w-1/4" src="Images/Icon/pngwing.com.png" alt="">
+                    </div>
+                </div>
+                
             </div>
         </section>
     </header>
